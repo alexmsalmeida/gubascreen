@@ -25,7 +25,7 @@ To perform a targeted detection of the Gubaphage, I performed a pan-genome analy
 git clone https://github.com/alexmsalmeida/gubascreen.git
 ```
 
-3. Add the scripts/ directory to your $PATH environmental variable.
+3. Add the `scripts/` directory to your `$PATH` environmental variable.
 
 ## How to run
 
