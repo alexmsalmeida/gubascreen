@@ -1,12 +1,12 @@
 # GubaScreen - Detect Gubaphage in viral genomes
 
-This repo contains instructions on how to screen for the presence of Gubaphage lineages in a set of predicted viral sequences (nucleotide FASTA file). For more information about the Gubaphage, see [Caramillo-Guerrero et al. Cell 2021](https://www.sciencedirect.com/science/article/pii/S0092867421000726) for a formal description of this clade.
+This repo contains instructions on how to screen for the presence of Gubaphage lineages in a set of predicted viral sequences (nucleotide FASTA file). For more information about the Gubaphage, see [Camarillo-Guerrero et al. Cell 2021](https://www.sciencedirect.com/science/article/pii/S0092867421000726) for a formal description of this clade.
 
 ## Background
 
 The Gubaphage is a recently discovered clade of bacteriophages highly prevalent in the gut microbiome of diverse human populations. Understanding its global distribution is important to uncover its potential role(s) in the gut ecosystem.
 
-To perform a targeted detection of the Gubaphage, I performed a pan-genome analysis of [all known Gubaphage genomes](http://ftp.ebi.ac.uk/pub/databases/metagenomics/genome_sets/gut_phage_database/Gubaphage_genomes.fa) retrieved from [Caramillo-Guerrero et al. Cell 2021](https://www.sciencedirect.com/science/article/pii/S0092867421000726), leading to the identification of a set of 6 core genes present in >90% of the genomes. For each core gene, HMMER was used to determine the optimal alignment bitscores (maximum F1 score) that would enable a clear separation between Gubaphage and non-Gubaphage sequences. The resulting HMM models alongside their scores can be found in `hmm_models/`.
+To perform a targeted detection of the Gubaphage, I performed a pan-genome analysis of [all known Gubaphage genomes](http://ftp.ebi.ac.uk/pub/databases/metagenomics/genome_sets/gut_phage_database/Gubaphage_genomes.fa) retrieved from [Camarillo-Guerrero et al. Cell 2021](https://www.sciencedirect.com/science/article/pii/S0092867421000726), leading to the identification of a set of 6 core genes present in >90% of the genomes. For each core gene, HMMER was used to determine the optimal alignment bitscores (maximum F1 score) that would enable a clear separation between Gubaphage and non-Gubaphage sequences. The resulting HMM models alongside their scores can be found in `hmm_models/`.
 
 ## Installation
 
