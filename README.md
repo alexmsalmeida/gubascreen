@@ -35,13 +35,13 @@ git clone https://github.com/alexmsalmeida/gubascreen.git
 prodigal -i input.fa -a proteins.faa -p meta 
 ```
 
-2. Run HMMER to detect the presence of Gubaphage marker genes
+2. Run HMMER to detect the presence of Gubaphage marker genes using pre-defined thresholds.
 
 ```
 hmmsearch --cpu {threads} --cut_ga --tblout guba_hmmer.tsv --noali hmm_models/guba_core.hmm proteins.faa
 ```
 
-3. Build phylogenetic tree from HMMER output (`iqtree` can be replaced with `fasttree` for a faster, albeit less accurate analysis)
+3. Build phylogenetic tree from HMMER output (`iqtree` can be replaced with `fasttree` for a faster, albeit less accurate analysis).
 
 ```
 hmmer2tree.sh -t {threads} -i guba_hmmer.tsv -p proteins.faa -m iqtree -o phylo_tree
