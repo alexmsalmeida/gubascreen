@@ -16,6 +16,7 @@ To perform a targeted detection of the Gubaphage, I performed a pan-genome analy
 * [BioPython](https://biopython.org/wiki/Download)
 * [Prodigal](https://github.com/hyattpd/Prodigal/wiki/installation) (tested v2.6.3)
 * [HMMER](http://hmmer.org/download.html) (tested v3.1b2)
+* [MUSCLE](https://www.drive5.com/muscle/downloads.htm) (tested v3.8.31)
 * [IQ-TREE](http://www.iqtree.org/) (tested v1.6.11)
 * [FastTree](http://www.microbesonline.org/fasttree/) (tested v2.1.10)
 
