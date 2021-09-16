@@ -1,4 +1,4 @@
-# GubaScreen - Detecting Gubaphage among viral genomes
+# GubaScreen - Detect Gubaphage in viral genomes
 
 This repo contains instructions on how to screen for the presence of Gubaphage lineages in a set of predicted viral sequences (nucleotide FASTA file). For more information about the Gubaphage, see [Caramillo-Guerrero et al. Cell 2021](https://www.sciencedirect.com/science/article/pii/S0092867421000726) for a formal description of this clade.
 
