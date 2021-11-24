@@ -90,7 +90,7 @@ then
 fi
 
 mv ${outdir}/markers/*.aln ${outdir}/markers/norm_alignment
-concat_seqs.py -d ${outdir}/markers/norm_alignment -o ${outdir}/concat_alignment.aln
+concat_alns.py -d ${outdir}/markers/norm_alignment -o ${outdir}/concat_alignment.aln
 
 # build tree
 echo "$(timestamp) [ hmmer2tree ] Building phylogenetic tree ..."
