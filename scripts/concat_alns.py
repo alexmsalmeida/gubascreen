@@ -27,7 +27,7 @@ def concat(args):
                 SeqIO.write(newRecord, fasta_out, "fasta") 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(usage='Concate alignments')
+    parser = argparse.ArgumentParser(usage='Concatenate alignments')
     parser.add_argument('-d', dest='directory', \
                                   help='Directory with protein alignments (.aln files)')
     parser.add_argument('-o', dest='output_name', \
